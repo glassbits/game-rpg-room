@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2d2d2d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    font-family: 'Kanit', sans-serif; /* Thai friendly font if available, else sans */
+}
+
+#game-container {
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+#instructions {
+    margin-top: 20px;
+    text-align: center;
+}
