@@ -118,7 +118,7 @@ function create() {
     // 3. Text Objects
     // Main Story Text
     storyText = this.add.text(50, 50, "", {
-        fontFamily: 'Arial',
+        fontFamily: 'Kanit, Arial, sans-serif',
         fontSize: '24px',
         color: '#ffffff',
         wordWrap: { width: 700 }
@@ -126,7 +126,7 @@ function create() {
 
     // Inventory Display
     inventoryText = this.add.text(50, 420, "Inventory: Empty", {
-        fontFamily: 'Arial',
+        fontFamily: 'Kanit, Arial, sans-serif',
         fontSize: '18px',
         color: '#ffff00'
     });
@@ -202,6 +202,7 @@ function createChoices(sceneCtx, choices) {
 
         // Create Button Text
         const btnText = sceneCtx.add.text(400, yPos, label, {
+            fontFamily: 'Kanit, Arial, sans-serif',
             fontSize: '20px',
             color: canChoose ? '#ffffff' : '#888888'
         }).setOrigin(0.5);
